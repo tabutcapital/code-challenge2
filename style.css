@@ -1,0 +1,15 @@
+h1 {
+    text-align: center;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+  }
+  .purchased {
+    text-decoration: blink;
+    color: gray;
+}
