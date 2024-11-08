@@ -30,6 +30,7 @@ itemList.addEventListener('click', (event) => {
     }
 });
 
+
 clearButton.addEventListener('click', () => {
     shoppingList = [];
     renderList();
@@ -56,4 +57,7 @@ function saveToLocalStorage() {
         localStorage.setItem(`item_${index}_purchased`, itemList.children[index].classList.contains('purchased'));
     });
 }
+
+
+
 
